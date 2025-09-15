@@ -76,7 +76,7 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: <Github className="w-6 h-6" />,
-      url: "https://github.com/username",
+      url: "https://github.com/Zee-B",
       color: "hover:text-foreground",
     },
     {
@@ -88,7 +88,7 @@ const Contact = () => {
     {
       name: "Email",
       icon: <Mail className="w-6 h-6" />,
-      url: "mailto:alex.johnson@email.com",
+      url: "mailto:ogundaresamson14@gmail.com",
       color: "hover:text-primary",
     },
   ];
