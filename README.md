@@ -1,73 +1,38 @@
-# Welcome to your Lovable project
+# 🌟 My React Portfolio
 
-## Project info
+A modern and responsive developer portfolio built with **React**, **Vite**, **TypeScript**, **Tailwind CSS**, and **shadcn-ui**.  
+This portfolio highlights my projects, skills, and experience in a sleek, minimal, and performance-optimized design.
 
-**URL**: https://lovable.dev/projects/502ea522-f3ee-4b4e-85ae-820f012c6ce1
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- ⚡ **Fast & Lightweight** – Built with Vite for super-fast builds and hot reloading.  
+- 🎨 **Modern UI** – Styled with Tailwind CSS + shadcn-ui components.  
+- 🌙 **Dark/Light Mode** – Theme toggle with persistence in local storage.  
+- 📱 **Responsive Design** – Optimized for desktop, tablet, and mobile devices.  
+- 🛠️ **Modular Codebase** – Easy to customize and extend.  
+- 🎥 **Animated UI** – Smooth transitions and effects powered by Framer Motion.  
+- 📂 **Projects Showcase** – Dynamically rendered project cards.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/502ea522-f3ee-4b4e-85ae-820f012c6ce1) and start prompting.
+## 🖼️ Sections
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Hero Section** – Intro with call-to-action.  
+- **About Me** – Short bio and skills.  
+- **Projects** – A showcase of selected works.  
+- **Contact** – Quick links and contact form.  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [React](https://react.dev/) – Frontend library  
+- [Vite](https://vitejs.dev/) – Build tool  
+- [TypeScript](https://www.typescriptlang.org/) – Type safety  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework  
+- [shadcn-ui](https://ui.shadcn.com/) – Accessible UI components  
+- [Framer Motion](https://www.framer.com/motion/) – Animations  
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/502ea522-f3ee-4b4e-85ae-820f012c6ce1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
