@@ -52,7 +52,7 @@ const Projects = () => {
       color: "bg-skill-css",
     },
     {
-      title: "Weather App",
+      title: "Simple Quiz App",
       image: quiz,
       description:
         "A simple and interactive React Quiz App that allows users to test their knowledge through multiple-choice questions. The app features a clean user interface, dynamic question rendering, instant feedback on answers, and a final score summary. Built with React hooks and state management, it ensures smooth transitions between questions and an engaging user experience.",
