@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Eye } from "lucide-react";
 import codrify from "@/assets/codrify.png";
 import tikfetch from "@/assets/tikfect.png";
+import quiz from "@/assets/quizapp.png";
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,8 +28,15 @@ const Projects = () => {
       title: "Codrify | Code Testing Platform",
       image: codrify,
       description:
-        "A full-Stack Project: Codrify is a developer-focused platform I built to help programmers instantly test and validate code in multiple languages, including JavaScript, TypeScript, and Python. It uses AI-assisted evaluation to detect errors, provide real-time feedback, and optimize code performance.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "React Query", "Supabase"],
+        "Built with assistance from Lovable.ai, Codrify is a full-stack, developer-focused platform I created to help programmers quickly test and validate code in multiple languages, including JavaScript, TypeScript, and Python. It uses AI-powered evaluation to detect errors, give real-time feedback, and improve code performance.",
+      tech: [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "React Query",
+        "Supabase",
+        "loavable.ai",
+      ],
       liveUrl: "https://codrifydemo.netlify.app/",
       githubUrl: "https://github.com/Zee-B/codrifytesting",
       color: "bg-skill-react",
@@ -45,12 +53,12 @@ const Projects = () => {
     },
     {
       title: "Weather App",
-      image: "/assets/projects/weather.png",
+      image: quiz,
       description:
-        "A beautiful weather app with location search, 7-day forecasts, animated weather icons, and responsive design.",
-      tech: ["TypeScript", "React", "Tailwind CSS", "Axios"],
-      liveUrl: "https://example-weather.com",
-      githubUrl: "https://github.com/username/weather-app",
+        "A simple and interactive React Quiz App that allows users to test their knowledge through multiple-choice questions. The app features a clean user interface, dynamic question rendering, instant feedback on answers, and a final score summary. Built with React hooks and state management, it ensures smooth transitions between questions and an engaging user experience.",
+      tech: ["React", "Tailwind CSS"],
+      liveUrl: "https://zeereactquiz.netlify.app/",
+      githubUrl: "https://github.com/Zee-B/BasicReactQuizApp",
       color: "bg-skill-js",
     },
   ];
