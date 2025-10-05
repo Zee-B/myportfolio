@@ -82,7 +82,7 @@ const Contact = () => {
     {
       name: "LinkedIn",
       icon: <Linkedin className="w-6 h-6" />,
-      url: "https://linkedin.com/in/username",
+      url: "#c",
       color: "hover:text-secondary",
     },
     {
