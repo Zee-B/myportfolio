@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Eye } from "lucide-react";
+import codrify from "@/assets/codrify.png";
+import tikfetch from "@/assets/tikfect.png";
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,29 +24,23 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "E-Commerce Frontend",
-      image: "/assets/projects/ecommerce.png",
+      title: "Codrify | Code Testing Platform",
+      image: codrify,
       description:
-        "A modern e-commerce frontend with shopping cart, product filtering, responsive design, and smooth animations.",
-      tech: [
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "React Query",
-        "Framer Motion",
-      ],
-      liveUrl: "https://example-ecommerce.com",
-      githubUrl: "https://github.com/username/ecommerce-frontend",
+        "A full-Stack Project: Codrify is a developer-focused platform I built to help programmers instantly test and validate code in multiple languages, including JavaScript, TypeScript, and Python. It uses AI-assisted evaluation to detect errors, provide real-time feedback, and optimize code performance.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "React Query", "Supabase"],
+      liveUrl: "https://codrifydemo.netlify.app/",
+      githubUrl: "https://github.com/Zee-B/codrifytesting",
       color: "bg-skill-react",
     },
     {
-      title: "Interactive Dashboard",
-      image: "/assets/projects/dashboard.png",
+      title: "Landing Page + Coming soon countdown",
+      image: tikfetch,
       description:
-        "A responsive admin dashboard with data visualizations, interactive charts, dark/light theme toggle, and real-time UI updates.",
-      tech: ["React", "Chart.js", "Material-UI", "React Router"],
-      liveUrl: "https://example-dashboard.com",
-      githubUrl: "https://github.com/username/react-dashboard",
+        "A fully functional and responsive landing page recreated from a UI design spotted on X (formerly Twitter). It features a dynamic countdown timer and serves as a polished “Coming Soon” page, built using well-structured React.js components.",
+      tech: ["Reactjs", "Framer Motion", "react-countdown", "React Router"],
+      liveUrl: "https://tikfetchdemo.netlify.app/",
+      githubUrl: "https://github.com/Zee-B/tikfetch",
       color: "bg-skill-css",
     },
     {
