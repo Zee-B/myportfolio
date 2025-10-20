@@ -57,7 +57,7 @@ const About = () => {
               }`}
             >
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I'm a passionate Front-End developer with over 5 years of
+                I'm a passionate Front-End developer with over half a decade of
                 experience creating digital experiences that combine beautiful
                 design with robust functionality. I specialize in modern web
                 technologies and love turning complex problems into simple,
